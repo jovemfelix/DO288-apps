@@ -8,7 +8,7 @@ LABEL io.openshift.expose-services="8080:http" \
 
 EXPOSE 8080
 
-ENV APP_DIRS /var/log/httpd /var/run/httpd
+ENV APP_DIRS /var/log/httpd/ /var/run/httpd/
 
 RUN sed -i "s/Listen 80/Listen 8080/g" /etc/httpd/conf/httpd.conf \
  && chgrp -R 0 $APP_DIRS \
