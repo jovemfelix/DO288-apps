@@ -8,7 +8,7 @@
         "source": {
             "type": "Git",
             "git": {
-                "uri": "https://github.com/youruser/DO288-apps.git",
+                "uri": "https://github.com/jovemfelix/DO288-apps.git",
                 "ref": "movie-pipeline"
             },
             "contextDir": "movies"
