@@ -62,7 +62,7 @@ public class MoviesApplicationTests {
 				entity, String.class);
 
 		Assert.assertNotNull(response.getBody());
-		Assert.assertEquals("Ready", response.getBody());
+		Assert.assertEquals("OK", response.getBody());
 	}
 
 }
